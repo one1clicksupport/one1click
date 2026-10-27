@@ -1,0 +1,11 @@
+{
+  "name": "1click-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "photos": "node scripts/fetch-photos.mjs",
+    "shots": "node scripts/build-portfolio.mjs"
+  },
+  "devDependencies": { "playwright": "^1.48.0", "sharp": "^0.33.0" }
+}
